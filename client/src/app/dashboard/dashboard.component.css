@@ -1,0 +1,122 @@
+
+
+
+
+
+
+
+
+
+h2 { 
+  color: #82b7df; 
+  font-family: 'Rouge Script', 
+  cursive; font-size: 130px; 
+  font-weight: normal; 
+  line-height: 100px; 
+  margin: 0 0 50px; 
+  text-align: center; 
+  text-shadow: 1px 1px 2px #08293100; 
+  
+}
+
+
+.bg {
+  background-image: url('/assets/images/graph.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  /*height: 100%;*/
+  margin-top: -1px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  line-height: 20px;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgb(130, 183, 223);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.9;
+}
+
+/* Style all font awesome icons */
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+
+.fa:hover {
+  opacity: 0.9;
+  margin: auto;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  display: block;
+  margin: auto;
+}
+
+.resume_button {
+  color: #fff !important;
+  text-transform: uppercase;
+  background: #82b7df;
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+}
+
+.resume_button:hover {
+  background: #5dbd7d;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.asulogo {
+  display: block;
+  margin: auto;
+  width: 25%;
+}
