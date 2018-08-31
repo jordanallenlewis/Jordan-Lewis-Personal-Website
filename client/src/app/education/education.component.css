@@ -1,24 +1,10 @@
-.center {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-}
 
 
-.flexcontainer {
-    display: flex;
-    align-items: center;
-  }
-  @media (max-width: 320px) {
-    .flexcontainer {
-      display: block;
-    }
-  }
 
 ul.b {
     list-style-type: square;
     margin: auto;
-    width: 50%;
+    width: 35%;
     padding: 10px;
     
 }
