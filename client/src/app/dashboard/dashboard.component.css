@@ -1,4 +1,20 @@
 
+
+p.b
+{
+  padding-top:50px;
+  width:50%;
+  margin: auto;
+  text-indent:40px
+}
+
+
+a.padding
+{
+  padding-left: 10px;
+}
+
+
 h2 { 
   color: #82b7df; 
   font-family: "Arial Black", Gadget, sans-serif, 
