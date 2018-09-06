@@ -1,12 +1,4 @@
 
-
-
-
-
-
-
-
-
 h2 { 
   color: #82b7df; 
   font-family: 'Rouge Script', 
@@ -21,7 +13,6 @@ h2 {
 
 
 .bg {
-  background-image: url('/assets/images/graph.svg');
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

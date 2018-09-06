@@ -22,6 +22,9 @@ import { MenubarComponent } from './menubar/menubar.component';
 import { ClearComponent } from './clear/clear.component';
 import { SkillsComponent } from './skills/skills.component';
 import { EducationComponent } from './education/education.component';
+import { ExperienceComponent } from './experience/experience.component';
+import { ProjectsComponent } from './projects/projects.component';
+import { ActivitiesComponent } from './activities/activities.component';
 
 
 @NgModule({
@@ -35,6 +38,9 @@ import { EducationComponent } from './education/education.component';
     ClearComponent,
     SkillsComponent,
     EducationComponent,
+    ExperienceComponent,
+    ProjectsComponent,
+    ActivitiesComponent,
   ],
   imports: [
     CommonModule,
