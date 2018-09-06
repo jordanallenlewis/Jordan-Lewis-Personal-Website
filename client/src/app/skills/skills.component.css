@@ -3,3 +3,14 @@ div.center
     margin: auto;
     text-align: center;
 }
+h2 { 
+    color: #82b7df; 
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 50px; 
+    font-weight: normal; 
+    line-height: 100px; 
+    margin: 0 0 50px; 
+    text-align: center; 
+    text-shadow: 1px 1px 2px #08293100; 
+    
+  }
