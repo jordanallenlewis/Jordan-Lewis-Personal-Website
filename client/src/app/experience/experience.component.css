@@ -10,7 +10,10 @@ h2 {
     
   }
 
-
+  a {
+    color:inherit;
+    text-decoration: underline;
+   }
 
 
 ul.b {
