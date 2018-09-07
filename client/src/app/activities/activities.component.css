@@ -1,11 +1,53 @@
+
 h2 { 
-    color: #82b7df; 
-    font-family: "Arial Black", Gadget, sans-serif;
-    font-size: 50px; 
-    font-weight: normal; 
-    line-height: 100px; 
-    margin: 0 0 50px; 
-    text-align: center; 
-    text-shadow: 1px 1px 2px #08293100; 
-    
-  }
+  color: #82b7df; 
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 50px; 
+  font-weight: normal; 
+  line-height: 100px; 
+  margin: 0 0 50px; 
+  text-align: center; 
+  text-shadow: 1px 1px 2px #08293100; 
+  
+}
+
+
+ul.b {
+  list-style-type: square;
+  margin: auto;
+  width: 45%;
+  padding: 10px;
+  
+  
+}
+
+li.a {
+  padding-bottom: 0px;
+  list-style: none;
+}
+
+li.b {
+  padding-bottom: 0px;
+ 
+}
+
+li.c {
+  padding-bottom: 10px;
+  list-style: none;
+}
+li.d {
+  padding-bottom: 0px;
+  list-style: none;
+}
+
+li.e {
+  padding-bottom: 10px;
+}
+
+
+.alignleft {
+float: left;
+}
+.alignright {
+float: right;
+}
