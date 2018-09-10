@@ -25,6 +25,7 @@ import { EducationComponent } from './education/education.component';
 import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ActivitiesComponent } from './activities/activities.component';
+import { DeviceDetectorModule } from 'ngx-device-detector';
 
 
 @NgModule({
@@ -43,6 +44,7 @@ import { ActivitiesComponent } from './activities/activities.component';
     ActivitiesComponent,
   ],
   imports: [
+    DeviceDetectorModule.forRoot(),
     CommonModule,
     BrowserModule,
     FormsModule,
