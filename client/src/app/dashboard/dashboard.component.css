@@ -1,4 +1,13 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
+.circular {
+  margin: auto;
+  border-radius: 100%;
+}
 
 p.b
 {
@@ -16,9 +25,9 @@ a.padding
 
 
 h2 { 
-  color: #82b7df; 
+  color: black; 
   font-family: "Arial Black", Gadget, sans-serif, 
-  cursive; font-size: 80px; 
+  cursive; font-size: 70px; 
   font-weight: normal; 
   line-height: 100px; 
   margin: 0 0 50px; 
@@ -126,4 +135,26 @@ a:hover {
   display: block;
   margin: auto;
   width: 25%;
+}
+
+
+
+
+
+
+body {
+  margin: 0;
+  height: 1000px;
+}
+
+
+.title {
+  position: absolute;
+  top: 60%;
+  left: 100px;
+}
+
+.fade
+{
+  
 }

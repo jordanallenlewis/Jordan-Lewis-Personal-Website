@@ -28,6 +28,9 @@ import { ActivitiesComponent } from './activities/activities.component';
 import { DeviceDetectorModule } from 'ngx-device-detector';
 
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -68,3 +71,5 @@ import { DeviceDetectorModule } from 'ngx-device-detector';
   entryComponents: []
 })
 export class AppModule { }
+
+

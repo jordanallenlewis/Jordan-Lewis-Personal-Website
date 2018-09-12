@@ -7,7 +7,7 @@ a {
 
 
 h2 { 
-  color: #82b7df; 
+  color: black; 
   font-family: "Arial Black", Gadget, sans-serif;
   font-size: 50px; 
   font-weight: normal; 
@@ -60,3 +60,6 @@ float: left;
 .alignright {
 float: right;
 }
+
+fade5
+{}
