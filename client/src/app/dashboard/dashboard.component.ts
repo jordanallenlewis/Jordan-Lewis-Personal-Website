@@ -78,7 +78,7 @@ $(window).scroll(function () {
 
 $('.fade5').css({'opacity': 1}); 
 $(window).scroll(function () {
-  var scrollTop = $(window).scrollTop() -4200;
+  var scrollTop = $(window).scrollTop() -5400;
   var height = $(window).height();
   $('.fade5').css({'opacity': ((height - scrollTop*1.5) / height)}); 
 });
