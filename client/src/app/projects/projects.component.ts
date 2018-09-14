@@ -24,12 +24,16 @@ export class ProjectsComponent implements OnInit {
         content.style.display = "block";
       }
     });
+
+
+    
 }
 
 
 
-
   }
+
+  
 
   
 

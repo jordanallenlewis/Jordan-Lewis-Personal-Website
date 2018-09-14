@@ -3,7 +3,11 @@ a {
   text-decoration: underline;
  }
 
-
+hr
+{
+  opacity: 1;
+  width: 50%;
+}
 
 
 h2 { 
@@ -64,7 +68,10 @@ float: right;
 fade5
 {}
 
-
+iframe
+{
+  text-align:center;
+}
 
 button
 {
@@ -76,7 +83,7 @@ button
 .collapsible {
   
   
-  background-color: #eee;
+  background-color: rgba(238, 238, 238, 0);
   color: #444;
   cursor: pointer;
   padding: 18px;
@@ -90,7 +97,8 @@ button
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .collapsible:hover {
-  background-color: #ccc;
+  background-color: rgba(204, 204, 204, 0);
+  color: rgb(143, 142, 142)
 }
 
 /* Style the collapsible content. Note: hidden by default */
@@ -101,4 +109,11 @@ button
   overflow: hidden;
   background-color: #f1f1f100;
   
+}
+
+.holder{
+  pointer-events:none;
+  width: 100%;
+  height:100%;
+  position:relative;
 }

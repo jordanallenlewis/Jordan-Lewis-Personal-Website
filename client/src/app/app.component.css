@@ -4,7 +4,7 @@ hr {
     padding: 0;
     margin: 8px auto;
     height: 0;
-    width: 30%;
+    width: 50%;
     max-height: 0;
     font-size: 1px;
     line-height: 0;
@@ -17,5 +17,5 @@ hr {
 
  .background
  {
-    background: rgb(130, 183, 223, 0.05) 
+    background: rgba(130, 183, 223, 0.089) 
  }
