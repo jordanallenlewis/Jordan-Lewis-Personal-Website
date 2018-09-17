@@ -1,60 +1,87 @@
-/* Style the header */
-.header {
-    z-index: 100;
-    padding: 2px 2px;
-    /* background: #82b7df; */
-    color: #000000;
-    opacity: .97;
-    font-family: "Arial Black", Gadget, sans-serif, 
-  }
-  
-  /* Page content */
-  .content {
-    padding: 16px;
-  }
-  
-  /* The sticky class is added to the header with JS when it reaches its scroll position */
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-  }
-  
-  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
-  .sticky + .content {
-    padding-top: 102px;
-  }
 
-  p {
-    display: inline;
-   
-  }
 
+
+
+#primary_nav_wrap
+{
+  margin-top:0px;
+
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+  	padding:0
   
+}
+
+#primary_nav_wrap ul a
+{
+  display:block;
+  
+	color:rgb(0, 0, 0);
+	text-decoration:none;
+	line-height:32px;
+	padding:0 15px;
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+  background:rgb(255, 255, 255);
+  
+
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background:#f6f6f6;
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	/* background: rgba(130, 183, 223, 0.08); */
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+
 
 ul {
-  display: inline;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  
-}
-
-li {
-  float: right;
-}
-
-li a {
-  display: inline;
-  color: black;
-  text-align: right;
-  padding-right: 20px;
-  padding-top: 5px;
-  text-decoration: none;
-}
-
-li a:hover {
-  color: #111111;
-}
-
+	text-align: center;
+	list-style: inside;
+  }

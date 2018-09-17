@@ -46,44 +46,44 @@ export class DashboardComponent implements OnInit {
   }
   
 
-  ngAfterViewInit() {
-    $('.fade').css({'opacity': 1}); 
-    $(window).scroll(function () {
-      var scrollTop = $(window).scrollTop();
-      var height = $(window).height();
-      $('.fade').css({'opacity': ((height - scrollTop) / height)}); 
-  });
+//   ngAfterViewInit() {
+//     $('.fade').css({'opacity': 1}); 
+//     $(window).scroll(function () {
+//       var scrollTop = $(window).scrollTop();
+//       var height = $(window).height();
+//       $('.fade').css({'opacity': ((height - scrollTop) / height)}); 
+//   });
 
 
-  $('.fade2').css({'opacity': 1}); 
-  $(window).scroll(function () {
-    var scrollTop = $(window).scrollTop() -1500;
-    var height = $(window).height();
-    $('.fade2').css({'opacity': ((height - scrollTop) / height)}); 
-});
+//   $('.fade2').css({'opacity': 1}); 
+//   $(window).scroll(function () {
+//     var scrollTop = $(window).scrollTop() -1500;
+//     var height = $(window).height();
+//     $('.fade2').css({'opacity': ((height - scrollTop) / height)}); 
+// });
 
-$('.fade3').css({'opacity': 1}); 
-$(window).scroll(function () {
-  var scrollTop = $(window).scrollTop() -2000;
-  var height = $(window).height();
-  $('.fade3').css({'opacity': ((height - scrollTop*1.5) / height)}); 
-});
+// $('.fade3').css({'opacity': 1}); 
+// $(window).scroll(function () {
+//   var scrollTop = $(window).scrollTop() -2000;
+//   var height = $(window).height();
+//   $('.fade3').css({'opacity': ((height - scrollTop*1.5) / height)}); 
+// });
 
-$('.fade4').css({'opacity': 1}); 
-$(window).scroll(function () {
-  var scrollTop = $(window).scrollTop() -2575;
-  var height = $(window).height();
-  $('.fade4').css({'opacity': ((height - scrollTop*1.5) / height)}); 
-});
+// $('.fade4').css({'opacity': 1}); 
+// $(window).scroll(function () {
+//   var scrollTop = $(window).scrollTop() -2575;
+//   var height = $(window).height();
+//   $('.fade4').css({'opacity': ((height - scrollTop*1.5) / height)}); 
+// });
 
-$('.fade5').css({'opacity': 1}); 
-$(window).scroll(function () {
-  var scrollTop = $(window).scrollTop() -5700;
-  var height = $(window).height();
-  $('.fade5').css({'opacity': ((height - scrollTop*1.5) / height)}); 
-});
+// $('.fade5').css({'opacity': 1}); 
+// $(window).scroll(function () {
+//   var scrollTop = $(window).scrollTop() -5700;
+//   var height = $(window).height();
+//   $('.fade5').css({'opacity': ((height - scrollTop*1.5) / height)}); 
+// });
 
-  }
+  // }
   
 
 
