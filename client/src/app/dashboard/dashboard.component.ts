@@ -17,6 +17,15 @@ export class DashboardComponent implements OnInit {
   }
 
   epicFunction() {
+    console.log("Trying to call api");
+    const Http = new XMLHttpRequest();
+    const url='http://localhost:8000/api/sms';
+    Http.open("GET", url);
+    Http.send();
+
+
+
+    
     console.log('hello `Home` component');
     this.deviceInfo = this.deviceService.getDeviceInfo();
     const isMobile = this.deviceService.isMobile();
