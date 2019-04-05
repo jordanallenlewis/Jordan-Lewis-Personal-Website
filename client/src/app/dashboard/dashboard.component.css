@@ -1,3 +1,17 @@
+div.item {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 70px;
+}
+
+.caption {
+  display: block;
+}
+
+
+
+
 .center {
   display: block;
   margin-left: auto;
